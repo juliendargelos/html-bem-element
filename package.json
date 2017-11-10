@@ -1,6 +1,6 @@
 {
   "name": "html-util-element",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides a html custom element which includes some useful shorcuts and utilitaries",
   "main": "index.js",
   "scripts": {

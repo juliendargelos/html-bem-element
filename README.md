@@ -51,7 +51,7 @@ Returns `this`
 
 ```javascript
 element.on('click scroll', function clickedOrScrolled(event) {
-  alert('You clicked or scrolled here.')
+  alert('You clicked or scrolled.')
 })
 
 element.off('click scroll', clickedOrScrolled)
@@ -66,7 +66,7 @@ Returns `this`
 
 ```javascript
 element.once('click scroll', event => {
-  alert('You clicked or scrolled here, I\'ll never say again.')
+  alert('You clicked or scrolled, I\'ll never say again.')
 })
 ```
 
