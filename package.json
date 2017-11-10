@@ -1,10 +1,11 @@
 {
   "name": "html-util-element",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Provides a html custom element which includes some useful shorcuts and utilitaries",
   "main": "index.js",
   "scripts": {
-    "build": "uglifyjs lib/index.js -o index.js",
+    "browserify": "node ./scripts/browserify.js",
+    "build": "npm run browserify && uglifyjs lib/index.js -o index.js && uglifyjs lib/html-util-element.js -o html-util-element.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

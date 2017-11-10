@@ -10,6 +10,20 @@ npm install html-util-element
 
 ## Usage
 ```javascript
+// Minified
+import HTMLUtilElement from 'html-util-element'
+```
+
+or
+
+```javascript
+// Not minified
+import HTMLUtilElement from 'html-util-element/lib'
+```
+
+then
+
+```javascript
 class MyCustomElement extends HTMLUtilElement {
 
 }
@@ -17,10 +31,26 @@ class MyCustomElement extends HTMLUtilElement {
 customElements.define('my-custom-element', MyCustomElement)
 ```
 
+finally
+
 ```html
 <my-custom-element>
   I'm full of utils.
 </my-custom-element>
+```
+
+With a script tag
+
+```html
+<!-- Minified !-->
+<script src="node_modules/html-util-element/html-util-element.js"></script>
+```
+
+or
+
+```html
+<!-- Not minified !-->
+<script src="node_modules/html-util-element/lib/html-util-element.js"></script>
 ```
 
 ## Utils
