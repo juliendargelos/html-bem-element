@@ -1,6 +1,6 @@
 {
   "name": "html-util-element",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Provides a html custom element which includes some useful shorcuts and utilitaries",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/juliendargelos/html-util-element/issues"
   },
   "homepage": "https://github.com/juliendargelos/html-util-element#readme",
-  "dependencies": {
+  "devDependencies": {
     "uglify-js-es6": "^2.8.9"
   }
 }
