@@ -1,0 +1,30 @@
+{
+  "name": "html-util-element",
+  "version": "1.0.0",
+  "description": "Provides a html custom element which includes some useful shorcuts or utilitaries",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs lib/index.js -o index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliendargelos/html-util-element.git"
+  },
+  "keywords": [
+    "html",
+    "custom",
+    "element",
+    "util",
+    "utils"
+  ],
+  "author": "Julien Dargelos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliendargelos/html-util-element/issues"
+  },
+  "homepage": "https://github.com/juliendargelos/html-util-element#readme",
+  "dependencies": {
+    "uglify-js-es6": "^2.8.9"
+  }
+}
