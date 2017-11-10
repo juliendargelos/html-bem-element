@@ -40,7 +40,7 @@ Behaves the same as [`addEventListener`](https://developer.mozilla.org/en-US/doc
 Returns `this`
 
 ```javascript
-element.on('click scroll', event => alert('You clicked or scrolled here.'))
+element.on('click scroll', event => alert('You clicked or scrolled.'))
 ```
 
 #### `off(types, listener, useCapture)`
