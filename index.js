@@ -33,4 +33,12 @@ class HTMLUtilElement extends HTMLElement {
 
     return false
   }
+
+  $(selectors) {
+    return this.querySelector(selectors)
+  }
+
+  $$(selectors) {
+    return this.querySelectorAll(selectors)
+  }
 }

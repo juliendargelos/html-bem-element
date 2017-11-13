@@ -93,3 +93,11 @@ else {
 }
 
 ```
+
+#### `$(selectors)`
+
+Alias of [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector).
+
+#### `$$(selectors)`
+
+Alias of [`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll).
